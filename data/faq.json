@@ -1,6 +1,6 @@
 {
- "_comment": "FAQ и блок «Как проверить» на /reviews/level-2/. Блок verify скопирован из reviews-level-1/data/faq.json 29.10.2026 (факты академии общие): при правке цифр там (Я.Карты, b17) править и здесь. Плейсхолдеры как у L1: {total}, {total_word}, {updated_time}. Формулировки ICF: Marketing/knowledge/icf_naming_on_site.md.",
- "updated": "2026-09-29",
+ "_comment": "FAQ и блок «Как проверить» на /reviews/level-2/. Блок verify скопирован из reviews-level-1/data/faq.json 29.10.2026 (факты академии общие): при правке цифр там (Я.Карты, b17) править и здесь. Плейсхолдеры как у L1: {total}, {total_word}, {updated_time}. Формулировки ICF: Marketing/knowledge/icf_naming_on_site.md. 29.10.2026: Я.Карты (4,6, пять отзывов), b17 (17), обе статьи vc.ru (200) проверены curl-ом, отсюда дата.",
+ "updated": "2026-10-29",
  "verify_title": "Как проверить академию Алексея Якубана",
  "verify_intro": "Отзывы на сайте академии стоит сверять с тем, что видно снаружи. Вот четыре точки, по которым Iakuban Coaching Academy проверяется без нашего участия, на каждую уходит пара минут.",
  "faq_title": "Отзывы о «Пути Алхимика»: вопросы и ответы",
@@ -20,7 +20,7 @@
   },
   {
    "dt": "Отзывы вне сайта",
-   "dd": "Карточка академии на Яндекс.Картах: рейтинг 4,6, пять отзывов. Анкета на b17.ru: 16 отзывов. Две статьи выпускника первого потока на vc.ru. Проверено {updated_time}. Ссылки: <a href=\"https://yandex.ru/maps/org/86349660849/\" target=\"_blank\" rel=\"noopener\">Яндекс.Карты</a>, <a href=\"https://www.b17.ru/iakuban/\" target=\"_blank\" rel=\"noopener\">b17.ru</a>, <a href=\"https://vc.ru/flood/2653673\" target=\"_blank\" rel=\"noopener\">первая статья</a>, <a href=\"https://vc.ru/flood/2658202\" target=\"_blank\" rel=\"noopener\">вторая статья</a>."
+   "dd": "Карточка академии на Яндекс.Картах: рейтинг 4,6, пять отзывов. Анкета на b17.ru: 17 отзывов. Две статьи на vc.ru от выпускника первого потока «Магии и науки коучинга». Проверено {updated_time}. Ссылки: <a href=\"https://yandex.ru/maps/org/86349660849/\" target=\"_blank\" rel=\"noopener\">Яндекс.Карты</a>, <a href=\"https://www.b17.ru/iakuban/\" target=\"_blank\" rel=\"noopener\">b17.ru</a>, <a href=\"https://vc.ru/flood/2653673\" target=\"_blank\" rel=\"noopener\">первая статья</a>, <a href=\"https://vc.ru/flood/2658202\" target=\"_blank\" rel=\"noopener\">вторая статья</a>."
   }
  ],
  "items": [
