@@ -1,0 +1,6 @@
+[
+ {"key":"l2p1_04_viktoriya_dovgal","name":"Виктория Довгаль","source":"telegram","detail":"личный профиль TG id 839188405 «Виктория Довгаль», фото профиля 640x640 (файл l2p1_04_viktoriya_dovgal_telegram.jpg); сверка с кадром Zoom: светлые длинные волосы, совпадает","confidence":"medium"},
+ {"key":"l2p1_11_ekaterina_snetkova","name":"Екатерина Снеткова","source":"telegram","detail":"TG id 351142093 «Екатерина Снеткова», фото 640x640; то же лицо, что фото профиля коуча на iakuban.com/snetkova (512, _platform.jpg) и кадр Zoom (короткая тёмная стрижка)","confidence":"high"},
+ {"key":"l2p1_13_ekaterina_volobueva","name":"Екатерина Волобуева","source":"telegram","detail":"TG id 196283568 @kate_volobueva, фото 640x640; то же лицо, что профиль iakuban.com/volobueva (512, _platform.jpg) и кадр Zoom (блондинка)","confidence":"high"},
+ {"key":"l2p1_14_olga_yilmaz","name":"Ольга Йылмаз","source":"telegram","detail":"TG id 1218049619 «Ольга Йылмаз», фото 640x640; кадр Zoom подписан @OlgaYilmaz: тёмная короткая стрижка, белая рубашка, совпадает с 2 другими фото профиля","confidence":"medium"}
+]
