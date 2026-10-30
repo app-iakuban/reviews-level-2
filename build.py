@@ -79,6 +79,9 @@ def coach_slug(key, name):
 
 
 def pcard(cohort, item, kmap):
+    # Фото в кружочках грузим сразу, без loading=lazy: 30.10.2026 в Android-вебвью Telegram у Снетковой
+    # ленивое фото Евгении Барченковой так и не запросилось (в логах nginx запроса нет), кружок остался
+    # пустым. 12 из 14 файлов и так уже в кэше из мозаики, сверху это +2 картинки (~70 КБ).
     key = item["key"]
     name = html.escape(item["name"])
     quote = html.escape(item["quote"])
@@ -93,7 +96,7 @@ def pcard(cohort, item, kmap):
         f'<article class="pcard reveal">\n'
         f'  <button class="pcircle" data-video="{src}" data-name="{name}" data-quote="«{quote}»" '
         f'aria-label="Видеоотзыв: {name}">'
-        f'<img src="{face_src(key)}" alt="{name}" width="560" height="560" loading="lazy">'
+        f'<img src="{face_src(key)}" alt="{name}" width="560" height="560" decoding="async">'
         f'<span class="pplay" aria-hidden="true"></span>'
         f'</button>\n'
         f'  <h3>{title}</h3>{tag}\n'
